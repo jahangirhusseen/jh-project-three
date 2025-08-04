@@ -18,7 +18,7 @@ if (money >= 25000) {
 }
 
 /** Problem -03 ( Medicine Planner ) */
-var lastDay = 6;
+var lastDay = 11;
 //write your code here
 
 for (var i = 1; i <= lastDay; i++) {
