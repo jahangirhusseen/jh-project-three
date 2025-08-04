@@ -28,3 +28,36 @@ for (var i = 1; i <= lastDay; i++) {
     console.log(i + " - rest");
   }
 }
+
+/** Problem 04 - (Delete / Store) */
+var fileName = "pdfData.jpg";
+//write your code here
+
+if (fileName[0] === "#") {
+  console.log("Store");
+} else if (fileName.endsWith(".pdf")) {
+  console.log("Store");
+} else if (fileName.endsWith(".docx")) {
+  console.log("Store");
+} else {
+  console.log("Delete");
+}
+
+/** Problem 05 - ( PH Email Generator )  */
+var student = { name: "jhankar", roll: 1014, department: "cse" };
+//write your code here
+var studentEmail =
+  student.name + student.roll + student.department + "@ph.ac.bd";
+console.log(studentEmail);
+
+/** Problem 06 :  (Current Salary )  */
+var experience = 40;
+var startingSalary = 30000;
+//write your code here
+
+var currentSalary = startingSalary;
+
+for (var j = 0; j < experience; j++) {
+  currentSalary += currentSalary * 0.05;
+}
+console.log(currentSalary.toFixed(2));
